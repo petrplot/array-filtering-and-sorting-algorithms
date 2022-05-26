@@ -34,12 +34,9 @@ function filterArr(arr, range) {
 
     if(
         range[0] === null
-        || 
-        range[0] === '' 
         && 
         range[1] === null 
-        || 
-        range[1] === '' 
+        
         ){
         return 'data incorrect 1'
     }
@@ -138,7 +135,7 @@ function filterArr(arr, range) {
     return res
 }
 
-console.log(filterArr(courses, requiredRange12));
+console.log(filterArr(courses, requiredRange1));
 
 
 //функция сортировки массива
@@ -169,7 +166,7 @@ function sortArr(arr){
 
 }
 
-console.log(sortArr(courses));
+//console.log(sortArr(courses));
 
 
 
