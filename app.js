@@ -135,7 +135,7 @@ function filterArr(arr, range) {
     return res
 }
 
-console.log(filterArr(courses, requiredRange1));
+console.log(filterArr(courses, requiredRange8));
 
 
 //функция сортировки массива
@@ -166,7 +166,7 @@ function sortArr(arr){
 
 }
 
-//console.log(sortArr(courses));
+console.log(sortArr(courses));
 
 
 
